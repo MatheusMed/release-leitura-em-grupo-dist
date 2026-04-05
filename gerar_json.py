@@ -1,6 +1,8 @@
 import json
 import subprocess
 
+## python gerar_json.py
+
 # lê versão atual
 with open("version.json", "r") as file:
     data = json.load(file)
