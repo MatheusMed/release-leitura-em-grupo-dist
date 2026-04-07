@@ -1,6 +1,7 @@
 {
-  "versionCode": 20,
-  "previousVersionCode": 19,
-  "versionName": "0.0.20",
-  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.20/leitura-em-grupo.apk"
+  "versionCode": 21,
+  "previousVersionCode": 20,
+  "versionName": "0.0.21",
+  "changelog": "• Gradle: Atualização de bibliotecas\n• Dados: Ajustes na persistência e modelos\n• UI: Refinamento de componentes e telas",
+  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.21/leitura-em-grupo.apk"
 }
