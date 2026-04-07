@@ -2,6 +2,6 @@
   "versionCode": 21,
   "previousVersionCode": 21,
   "versionName": "0.0.21",
-  "changelog": "• Pequenos ajustes de código.",
-  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.21/app-release-unsigned.apk"
+  "changelog": "• Gradle: Atualização de bibliotecas",
+  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.21/app-release.apk"
 }
