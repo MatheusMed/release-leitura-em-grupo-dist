@@ -1,37 +1,53 @@
 import json
 import subprocess
 
-## python gerar_json.py
+# python gerar_json.py
 
-# lê versão atual
+# =========================
+# 📥 Lê versão atual
+# =========================
 with open("version.json", "r") as file:
     data = json.load(file)
 
-# incrementa versão (ex: 0.0.6 → 0.0.7)
-parts = data["versionName"].split(".")
+current_version_code = data.get("versionCode", 0)
+current_version_name = data.get("versionName", "0.0.0")
+
+# =========================
+# 🔼 Incrementa versão
+# =========================
+parts = current_version_name.split(".")
 parts[-1] = str(int(parts[-1]) + 1)
 
-new_version = ".".join(parts)
-new_code = data["versionCode"] + 1
+new_version_name = ".".join(parts)
+new_version_code = current_version_code + 1
 
-# cria novo JSON
+# =========================
+# 🧠 NOVA LÓGICA OTA
+# =========================
 new_data = {
-    "versionCode": new_code,
-    "versionName": new_version,
-    "apkUrl": f"https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/{new_version}/app-debug.apk"
+    "versionCode": new_version_code,
+    "previousVersionCode": current_version_code,  # 🔥 ESSENCIAL
+    "versionName": new_version_name,
+    "apkUrl": f"https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/{new_version_name}/app-debug.apk"
 }
 
-# salva arquivo
+# =========================
+# 💾 Salva JSON
+# =========================
 with open("version.json", "w") as file:
     json.dump(new_data, file, indent=2)
 
-print("Nova versão:", new_version)
+print("🚀 Nova versão gerada:")
+print("Version Name:", new_version_name)
+print("Version Code:", new_version_code)
 
-# 🔥 comandos git
+# =========================
+# 🔥 GIT AUTO
+# =========================
 try:
     subprocess.run(["git", "add", "version.json"], check=True)
-    subprocess.run(["git", "commit", "-m", f"update version to {new_version}"], check=True)
+    subprocess.run(["git", "commit", "-m", f"update version to {new_version_name}"], check=True)
     subprocess.run(["git", "push"], check=True)
-    print("🚀 Push realizado com sucesso!")
+    print("✅ Push realizado com sucesso!")
 except subprocess.CalledProcessError:
     print("❌ Erro ao executar git. Verifique configuração.")
