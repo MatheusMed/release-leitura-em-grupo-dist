@@ -1,4 +1,6 @@
 {
-  "versionCode": 19,
-  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/v0.0.19/leitura-em-grupo.apk"
+  "versionCode": 20,
+  "previousVersionCode": 19,
+  "versionName": "0.0.20",
+  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.20/leitura-em-grupo.apk"
 }
