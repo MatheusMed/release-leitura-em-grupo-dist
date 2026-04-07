@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "previousVersionCode": 21,
-  "versionName": "0.0.22",
-  "changelog": "• Dados: Ajustes na persistência e modelos",
-  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.22/app-release.apk"
+  "versionCode": 23,
+  "previousVersionCode": 22,
+  "versionName": "0.0.23",
+  "changelog": "• Melhorias gerais e correções de estabilidade.",
+  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/0.0.23/app-release.apk"
 }
