@@ -1,7 +1,7 @@
 {
   "versionCode": 27,
-  "previousVersionCode": 26,
+  "previousVersionCode": 27,
   "versionName": "1.0.27",
-  "changelog": "• UI: Update em Perfil.kt\n• Geral: Update em automacao_release.py",
+  "changelog": "• Geral: Update em LeituraEmGrupoApplication.kt\n• Dados: Novo em OnboardingPreferences.kt\n• Geral: Update em AppModule.kt\n• Geral: Update em navigations.kt\n• UI: Update em MainActivity.kt\n• UI: Update em Perfil.kt\n• UI: Novo em OnboardingScreen.kt\n• Geral: Novo em book_lover_steps.xml\n• Geral: Novo em bookshelves_steps.xml\n• Geral: Novo em icon_group.xml",
   "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/1.0.27/app-release.apk"
 }
