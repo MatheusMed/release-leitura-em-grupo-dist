@@ -1,7 +1,7 @@
 {
-  "versionCode": 26,
-  "previousVersionCode": 24,
-  "versionName": "1.0.26",
-  "changelog": "• UI: Refinamento de componentes e telas\n• Dados: Ajustes na persistência e modelos",
-  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/1.0.26/app-release.apk"
+  "versionCode": 27,
+  "previousVersionCode": 26,
+  "versionName": "1.0.27",
+  "changelog": "• UI: Update em Perfil.kt\n• Geral: Update em automacao_release.py",
+  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/1.0.27/app-release.apk"
 }
