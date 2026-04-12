@@ -1,7 +1,7 @@
 {
-  "versionCode": 29,
-  "previousVersionCode": 28,
-  "versionName": "1.0.29",
-  "changelog": "• UI: Update em MainActivity.kt\n• UI: Update em ChatComponent.kt",
-  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/1.0.29/app-release.apk"
+  "versionCode": 30,
+  "previousVersionCode": 29,
+  "versionName": "1.0.30",
+  "changelog": "• Geral: Update em deploymentTargetSelector.xml\n• Dados: Update em Achievement.kt\n• UI: Update em MainActivity.kt\n• UI: Update em ChatBubble.kt\n• UI: Update em ChatComponent.kt\n• UI: Update em Perfil.kt\n• UI: Update em OnboardingScreen.kt",
+  "apkUrl": "https://github.com/MatheusMed/release-leitura-em-grupo-dist/releases/download/1.0.30/app-release.apk"
 }
